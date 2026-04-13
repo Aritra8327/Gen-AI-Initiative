@@ -8,7 +8,7 @@ def get_stock_price(symbol):
     url = "xxx"
     params = {
         "access_key": os.getenv("xxx"),
-        "symbols": symbol
+        "symbols": xxx
     }
 
     response = requests.get(url, params=params)
